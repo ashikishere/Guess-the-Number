@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #f8f8f8;
+  background-color: #222;
+}
+
+/* GAME DESIGN */
+
+.header {
+  width: 100%;
+  text-align: center;
+  height: 250px;
+  border-bottom: 7px solid #f8f8f8;
+  position: relative;
+}
+
+.game-title {
+  font-size: 35px;
+  color: #f8f8f8;
+  text-transform: capitalize;
+  padding: 50px 0px 10px;
+  letter-spacing: 2px;
+}
+
+.Between {
+  font-size: 30px;
+  color: rgb(189, 189, 189);
+  font-family: monospace;
+}
+
+.secret-box {
+  width: 120px;
+  height: 100px;
+  font-family: inherit;
+  background: #f8f8f8;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.secret-number {
+  font-size: 50px;
+  color: #000;
+  line-height: 100px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  padding: 80px 0px 20px;
+  justify-content: space-evenly;
+}
+.Score-area {
+  width: 45%;
+  text-align: center;
+  padding-top: 20px;
+  padding: 0px 10px;
+}
+.Score-area h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.Score-area h2 {
+  font-size: 20px;
+  font-family: monospace;
+  margin: 10px 0px;
+}
+.input-area {
+  width: 45%;
+  /* border: 1px solid #f8f8f8; */
+  text-align: center;
+  padding: 0px 10px;
+}
+.input-area label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.input-box {
+  background: none;
+  border: 3px solid #eee;
+  font-family: inherit;
+  color: #f8f8f8;
+  font-size: 4rem;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.btn {
+  background: #f8f8f8;
+  color: #000;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #c3bfbf;
+}
+.btn:focus {
+  background: #f8f8f8;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.end-text {
+  font-size: 18px;
+  /* font-family: monospace; */
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.againg {
+  padding: 15px 30px;
+  border-radius: 10px;
+}
